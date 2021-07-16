@@ -65,7 +65,7 @@ client.on('message', msg => {
     
     console.log("foi: " + JSON.stringify(msg))
     
-    axios.post("https://oxigenio.sharkdata.com.br/api/WhatsWeb/Receberheruku", config)
+    axios.post("https://lagoinha.sharkdata.com.br/api/WhatsWeb/Receberheruku", config)
     //axios.post("https://0e6aa7d50090.ngrok.io/api/WhatsWeb/Receberheruku", config)
         .then(function (response) {
             console.log(JSON.stringify(response.data));
